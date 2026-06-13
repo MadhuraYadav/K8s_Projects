@@ -2,18 +2,26 @@
 
 #Creating a simple deployment with node port service
 
-#Commands - deploy
+#Commands - deploy:
+```
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
+```
 
-#Commands - Verify
+#Commands - Verify:
+```
 kubectl get deploy
 kubectl get pods
 kubectl get svc
 kubectl describe svc myservice
+```
 
-#Commands - Access
+#Commands - Access:
+```
 minikube service myservice
+```
 
-#Commands - Delete 
+#Commands - Delete:
+```
 kubectl delete -f manifests/
+```
