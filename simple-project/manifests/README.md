@@ -25,3 +25,5 @@ minikube service myservice
 ```
 kubectl delete -f manifests/
 ```
+
+> Note: To check all the resources we created, use `kubectl get all`
